@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: carteira-postgres
+    environment:
+      POSTGRES_DB: carteira
+      POSTGRES_USER: carteira
+      POSTGRES_PASSWORD: carteira
+    ports:
+      - "5432:5432"
+    volumes:
+      - carteira_data:/var/lib/postgresql/data
+
+volumes:
+  carteira_data:

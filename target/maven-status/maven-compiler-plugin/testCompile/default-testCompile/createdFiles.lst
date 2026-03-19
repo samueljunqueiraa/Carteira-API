@@ -1,0 +1,5 @@
+com\carteira\integration\TransactionIntegrationTest.class
+com\carteira\integration\WalletIntegrationTest.class
+com\carteira\service\TransactionServiceTest.class
+com\carteira\service\WalletServiceTest.class
+com\carteira\integration\AbstractIntegrationTest.class
