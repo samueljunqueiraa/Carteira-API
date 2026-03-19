@@ -42,8 +42,7 @@ Regras de negócio aplicadas:
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/carteira-api.git
-cd carteira-api
+git clone https://github.com/samueljunqueiraa/Carteira-API.git
 
 # 2. Suba o banco de dados
 docker compose up -d postgres
